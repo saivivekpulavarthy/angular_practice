@@ -1,0 +1,22 @@
+<div class="card-container">
+    <div *ngIf="data">
+        <div *ngIf="data.domain" class="head-line">
+            <h1>{{data.domain}}</h1>
+        </div>
+        <div *ngIf="data.company" class="head-line">
+            <h1>{{data.company}}</h1>
+        </div>
+        <div class="percentage" *ngIf="data.percentage">Percentage: {{data.percentage}}%</div>
+        <div class="percentage" *ngIf="data.duration && data.duration > 0 ">Duration: {{data.duration}} Years</div>
+        <span>{{data.from }}</span> -
+        <span>{{data.to }}</span>
+        <div class="specialization" *ngIf="data.specialization">Specialization: {{data.specialization}}</div>
+        <div class="board" *ngIf="data.board">Board: {{data.board}}</div>
+        <div class="city">City: {{data.city}}</div>
+        <div class="client" *ngIf="data.client">Client: {{data.client}}</div>
+        <div *ngIf="data.skills">Skills Used:
+            <span *ngFor="let skill of data.skills"> {{skill}},</span>
+        </div>
+    </div>
+
+</div>

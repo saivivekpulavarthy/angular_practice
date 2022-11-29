@@ -1,0 +1,40 @@
+<div class="container" *ngIf="covidState$ | async as state">
+  <div class="data-card" *ngFor="let data of state.data">
+    <div class="blue" *ngIf="data.activeCases">
+      Active Cases: {{ data.activeCases }}
+    </div>
+    <div class="green" *ngIf="data.recoveredNew">
+      Recoverd New: {{ data.recoveredNew }}
+    </div>
+    <div class="green" *ngIf="data.recovered">
+      Recoverd: {{ data.recovered }}
+    </div>
+    <div class="red" *ngIf="data.deathsNew">
+      Deaths New: {{ data.deathsNew }}
+    </div>
+    <div class="red" *ngIf="data.deaths">Deaths: {{ data.deaths }}</div>
+    <div class="blue" *ngIf="data.totalCases">
+      Total Cases: {{ data.totalCases }}
+    </div>
+    <div class="yellow" *ngIf="data.previousDayTests">
+      Previous Day Tests: {{ data.previousDayTests }}
+    </div>
+    <div *ngIf="data.lastUpdatedAtApify">
+      Last Updated: {{ data.lastUpdatedAtApify | date }}
+    </div>
+    <div *ngIf="data.regionData && data.regionData.length">
+      Region Data:
+      <a
+        routerLink="/home/covid19/region-data"
+        (click)="openRegionData(data.regionData)"
+        >Click Here</a
+      >
+    </div>
+  </div>
+  <!-- <router-outlet></router-outlet>  -->
+
+  <div id="loading" #loading *ngIf="state.showloading">
+    <div>It's Loading...</div>
+    <div>Please Hold On Tight...</div>
+  </div>
+</div>

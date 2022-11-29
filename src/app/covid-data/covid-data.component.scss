@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    //  flex-direction: column-reverse;
+}
+
+.data-card {
+    border: 1px solid black;
+    min-width: 250px;
+    margin: 10px;
+}
+#loading{
+  height: calc(100vh - 145px);
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: rgb(89, 89, 213);
+}
+
+.yellow {
+    color: yellowgreen;
+}

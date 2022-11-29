@@ -1,0 +1,40 @@
+<div class="body">
+  <mat-form-field class="add-task" appearance="fill">
+    <mat-label>Input</mat-label>
+    <input matInput #title (keyup.enter)="addTask(title.value)" />
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="addTask(title.value)">
+    Add</button
+  ><br />
+  <img
+    src="../../../../assets/images.jpg"
+    alt="quote"
+    title="quote"
+    style="width: 300px; height: 300px; margin-left: 15px"
+  />
+  <div class="task-container">
+    <span class="todo-container">
+      <h2>Tasks TO DO</h2>
+      <div>
+        <app-todo-task
+          *ngFor="let todo of todoService.pendingTasks | async"
+          [todo]="todo"
+          (completed)="markIt($event, todo)"
+          (remove)="removeTask(todo.id)"
+        >
+        </app-todo-task>
+      </div>
+      <div *ngIf="!todoService.pendingTasks">No Tasks are Pending!...</div>
+    </span>
+    <span class="todo-container">
+      <h2>Tasks Completed</h2>
+      <app-todo-task
+        *ngFor="let todo of todoService.completedTasks | async"
+        [todo]="todo"
+        (completed)="markIt($event, todo)"
+        (remove)="removeTask(todo.id)"
+      >
+      </app-todo-task>
+    </span>
+  </div>
+</div>

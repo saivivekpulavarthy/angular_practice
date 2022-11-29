@@ -1,0 +1,47 @@
+.profile-pic {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+.content{
+  //  width:100px;
+  //  text-align: center;
+    .head-line{
+        text-align: center;
+        display: flex;
+        width:100px;
+    }
+}
+.container{
+    margin-left:10px;
+}
+.button-vertical {
+    margin: 20px 0px 20px 0px;
+
+}
+
+.side-nav-button {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    height: 40px;
+    color: black;
+    mat-icon {
+        margin-right: 20px;
+    }
+
+    
+}
+
+button:hover {
+    background-color: rgb(52, 50, 50);
+    color: white;
+}
+
+button {
+    display: block;
+
+}

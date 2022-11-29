@@ -1,0 +1,269 @@
+{
+  "productsList": [
+    {
+      "productName": "Burger",
+      "category": "Vegetables",
+      "date": "2022-05-18T18:30:00.000Z",
+      "freshness": "First Hand",
+      "price": 300,
+      "availability": "available",
+      "comment": "Bread",
+      "id": 3
+    },
+    {
+      "productName": "pizza",
+      "category": "Vegetables",
+      "date": "2022-05-06T18:30:00.000Z",
+      "freshness": "First Hand",
+      "price": 200,
+      "availability": "available",
+      "comment": "tasty",
+      "id": 4
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "date": "2022-05-19T18:30:00.000Z",
+      "freshness": "First Hand",
+      "price": 300,
+      "availability": "available",
+      "comment": "",
+      "id": 5
+    },
+    {
+      "productName": "pizza",
+      "category": "Fruits",
+      "date": "2022-05-26T18:30:00.000Z",
+      "freshness": "Refurbished",
+      "price": 999,
+      "availability": "available",
+      "comment": "",
+      "id": 7
+    },
+    {
+      "productName": "Brinjal",
+      "category": "Vegetables",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "First Hand",
+      "price": 20,
+      "availability": "available",
+      "comment": "Fresh",
+      "id": 8
+    },
+    {
+      "productName": "Burger",
+      "category": "Vegetables",
+      "date": "2021-12-31T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 33,
+      "availability": "available",
+      "comment": "",
+      "id": 9
+    },
+    {
+      "productName": "Biriyani",
+      "category": "Vegetables",
+      "date": "2022-05-04T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 199,
+      "availability": "available",
+      "comment": "Special",
+      "id": 10
+    },
+    {
+      "productName": "soup",
+      "category": "Vegetables",
+      "date": "2022-05-05T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 99,
+      "availability": "available",
+      "comment": "",
+      "id": 11
+    },
+    {
+      "productName": "earphone",
+      "category": "Vegetables",
+      "date": "2022-05-05T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 599,
+      "availability": "available",
+      "comment": "NA",
+      "id": 12
+    },
+    {
+      "productName": "Mobile",
+      "category": "Fruits",
+      "date": "2022-05-20T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 15999,
+      "availability": "available",
+      "comment": "",
+      "id": 13
+    },
+    {
+      "productName": "laptop",
+      "category": "Vegetables",
+      "date": "2022-05-20T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 100000,
+      "availability": "available",
+      "comment": "",
+      "id": 14
+    },
+    {
+      "productName": "Grapes",
+      "category": "Fruits",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 40,
+      "availability": "available",
+      "comment": "",
+      "id": 15
+    },
+    {
+      "productName": "samosa",
+      "category": "Vegetables",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 20,
+      "availability": "available",
+      "comment": "",
+      "id": 16
+    },
+    {
+      "productName": "Fried rice",
+      "category": "Vegetables",
+      "date": "2022-05-14T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 399,
+      "availability": "available",
+      "comment": "",
+      "id": 17
+    },
+    {
+      "productName": "Biriyani",
+      "category": "Vegetables",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 499,
+      "availability": "available",
+      "comment": "",
+      "id": 18
+    },
+    {
+      "productName": "Book",
+      "category": "Vegetables",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 300,
+      "availability": "available",
+      "comment": "",
+      "id": 19
+    },
+    {
+      "productName": "medicans",
+      "category": "Fruits",
+      "date": "2022-05-03T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 500,
+      "availability": "notAvailable",
+      "comment": "",
+      "id": 20
+    },
+    {
+      "productName": "laptop",
+      "category": "Fruits",
+      "date": "2022-05-31T18:30:00.000Z",
+      "freshness": "Brand New",
+      "price": 90000,
+      "availability": "available",
+      "comment": "NA",
+      "id": 21
+    }
+  ],
+  "todos": [
+    {
+      "title": "Reading",
+      "complete": false,
+      "id": 1
+    },
+    {
+      "title": "developing",
+      "complete": false,
+      "id": 4
+    },
+    {
+      "title": "bugfixing",
+      "complete": false,
+      "id": 5
+    },
+    {
+      "title": "testing",
+      "complete": false,
+      "id": 6
+    }
+  ],
+  "education": [
+    {
+      "domain": "SSC",
+      "board": "Secondary Board of Education",
+      "percentage": 87,
+      "specialization": "",
+      "city": "Kakinada",
+      "from": 2012,
+      "to": 2013
+    },
+    {
+      "domain": "Diploma",
+      "board": "State Board of Technical Education & Training",
+      "percentage": 85,
+      "specialization": "Electrical & Electronics",
+      "city": "Kakinada",
+      "from": 2013,
+      "to": 2016
+    },
+    {
+      "domain": "BTech",
+      "board": "Jawaharlal Neheru Technological University",
+      "percentage": 84,
+      "specialization": "Electrical & Electronics Engineering",
+      "city": "Surampalem",
+      "from": 2016,
+      "to": 2019
+    }
+  ],
+  "experience": [
+    {
+      "company": "HCL Technolgies",
+      "duration": 2.9,
+      "city": "Vijayawada",
+      "client": "Cisco",
+      "skills": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GIT"
+      ],
+      "from": 2019,
+      "to": 2022
+    },
+    {
+      "company": "Technumen PVT LTD",
+      "duration": 0.3,
+      "city": "Hyderabad",
+      "client": "State Auto Insurance",
+      "skills": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GIT",
+        "Java",
+        "SpringBoot"
+      ],
+      "from": 2022,
+      "to": "Till Now"
+    }
+  ]
+}

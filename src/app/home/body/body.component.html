@@ -1,0 +1,11 @@
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer [(opened)]="opened" #drawer class="example-sidenav" mode="over">
+     <p class="sideNavLink"> <a routerLink="/home/todo" (click)="closeSidebar()">Todo App</a></p>
+     <p class="sideNavLink"> <a routerLink="/home/products" (click)="closeSidebar()">Products</a></p>
+     <p class="sideNavLink"> <a routerLink="/home/covid19" (click)="closeSidebar()">Covid-19 Data</a></p>
+    </mat-drawer>
+    <router-outlet></router-outlet>
+</mat-drawer-container>
+
+<button (click)="onGetById()">get by id</button>
+<button (click)="onGetList()">GetByAPI</button>

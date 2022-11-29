@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="data-card" *ngFor="let data of regionData$ | async">
+    <div>Hello</div>
+    <div class="yellow" *ngIf="data.activeCases">
+      Previous Day Tests: {{ data.activeCases }}
+    </div>
+    <div class="blue" *ngIf="data.region">Active Cases: {{ data.region }}</div>
+    <div class="green" *ngIf="data.newInfected">
+      Recoverd: {{ data.newInfected }}
+    </div>
+    <div class="green" *ngIf="data.totalInfected">
+      Recoverd New: {{ data.totalInfected }}
+    </div>
+    <div class="red" *ngIf="data.newRecovered">
+      Deaths New: {{ data.newRecovered }}
+    </div>
+    <div class="red" *ngIf="data.recovered">Deaths: {{ data.recovered }}</div>
+    <div class="blue" *ngIf="data.newDeceased">
+      Total Cases: {{ data.newDeceased }}
+    </div>
+    <div class="yellow" *ngIf="data.deceased">
+      Previous Day Tests: {{ data.deceased }}
+    </div>
+  </div>
+</div>

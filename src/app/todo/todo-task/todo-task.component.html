@@ -1,0 +1,3 @@
+
+<input type="checkbox" [checked]="todo.complete" (change)="onChange($event)">
+<span class="title" [ngClass]="todo.complete ?'line':'unline'">{{todo.title}}</span><button mat-icon-button  (click)="onRemoveTask(todo.id)"> <mat-icon>delete</mat-icon></button><br>

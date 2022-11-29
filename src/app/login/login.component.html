@@ -1,0 +1,11 @@
+<form mat-dialog-content [formGroup]="login">
+
+    <label>User Name</label>
+    <input type="text" formControlName="userName" placeholder="User Name">
+    <br>
+
+    <label>Password</label>
+    <input type="text" formControlName="password" type="password">
+    <input type="submit" (click)="onSubmit()" routerLink="/home">
+    
+</form>
